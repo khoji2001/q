@@ -1,4 +1,4 @@
-git clone -b last https://github.com/khoji2001/Laravel_Shop.git
+git clone -b last https://gitlab.com/khoji2001/Laravel_Shop.git
 
 docker-compose build && docker-compose up -d
 
@@ -19,7 +19,7 @@ DB_HOST=blog_db
 DB_PORT=3306
 DB_DATABASE=simple
 DB_USERNAME=root
-DB_PASSWORD=root
+DB_PASSWORD=r0312327129oot
 
 php artisan migrate
 
