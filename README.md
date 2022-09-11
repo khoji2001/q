@@ -33,6 +33,5 @@ mkdir first
 
 chmod -R 0777 public/
 
-cp /usr/src/app/public/styles/logook.png  ./public/images/
 
 docker restart $(docker ps -q)
